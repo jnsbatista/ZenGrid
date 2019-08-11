@@ -20,7 +20,7 @@
     <link href="{% static 'style.css' %}" rel="stylesheet">
 
     <!-- Responsive CSS -->
-    <link href="{% static 'css/responsive.css' %" rel="stylesheet">
+    <link href="{% static 'css/responsive.css' %}" rel="stylesheet">
 
 </head>
 
@@ -261,7 +261,7 @@
                     <!-- Video Area Start -->
                     <div class="video-area video-background">
                         <div class="video-play-btn">
-                            <a href="https://www.youtube.com/watch?v=f5BBJ4ySgpo" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                            <a href="{% static 'https://www.youtube.com/watch?v=f5BBJ4ySgpo' %}" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -763,7 +763,7 @@
         <!-- Foooter Text-->
         <div class="copyright-text">
             <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
-            <p>Copyright ©2018 Designed by <a href="https://devdap.com" target="_blank">devdap</a></p>
+            <p>Copyright ©2018 Designed by <a href=" {% static 'https://devdap.com' %}" target="_blank">devdap</a></p>
         </div>
     </footer>
     <!-- ***** Footer Area End ***** -->
